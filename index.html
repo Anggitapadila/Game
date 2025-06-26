@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami</title>
+    <link rel="stylesheet" href="header\Style.css">
+    <link rel="shortcut icon" href="gambar/favicon.ico" type="gambar/x-icon">
+    <link rel="icon" href="gambar/favicon.ico" type="gambar/x-icon">
+    <style>
+        /* Styling dari kode Anda */
+        .about-section {
+            padding: 50px;
+            text-align: center;
+            background-image: url(gambar/bgg.jpg); /* Menambahkan background foto */
+            background-size: cover;
+            background-position: center;
+            color: white; /* Mengubah warna teks menjadi putih agar lebih kontras dengan latar belakang */
+        }
+        
+        .about-section h2 {
+            color: #fff; /* Mengubah warna judul menjadi putih */
+            font-size: 24px; /* Mengubah ukuran font judul */
+            font-weight: bold;
+        }
+        
+        .about-section p {
+            font-size: 14px; /* Mengubah ukuran font teks */
+            margin-top: 10px; /* Mengurangi margin atas teks */
+        }
+        
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        
+        .menu-item {
+            flex: 1 1 200px; /* Mengatur lebar item menu */
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            display: flex; /* Menjadikan item menu sebagai flex container */
+            flex-direction: column; /* Menjadikan flex direction menjadi column agar gambar dan teks tersusun vertikal */
+            align-items: center; /* Mengatur penempatan item ke tengah */
+        }
+        
+        .menu-item img {
+            border-radius: 10px;
+            width: 100%;
+            max-width: 150px; /* Mengatur maksimum lebar gambar */
+            height: auto;
+            margin-bottom: 10px;
+            align-items: center; /* Meratakan gambar */
+        }
+        
+        .menu-item h3 {
+            color: #333;
+            font-size: 16px; /* Mengubah ukuran font judul menu */
+            margin-top: 0;
+        }
+        
+        .menu-item p {
+            color: #666;
+            font-size: 12px; /* Mengubah ukuran font teks menu */
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Pondok Rasa Nuansa Hijau 62</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="masakan.html">Daftar Masakan</a></li>
+                    <li><a href="Katering.html">Katering</a></li>
+                    <li><a href="Tentang.html">Tentang</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Informasi Tentang Kami -->
+        <section class="about-section">
+            <h2>Selamat datang</h2>
+            <p>Selamat datang di Pondok Rasa Nuansa Hijau 62! Kami adalah restoran yang berkomitmen untuk menyajikan makanan berkualitas tinggi dengan nuansa yang segar dan lezat.</p>
+            <p>Pondok Rasa Nuansa Hijau 62 adalah destinasi favorit bagi pecinta makanan yang mencari pengalaman kuliner yang unik dan memuaskan. Dengan kualitas makanan terbaik dan atmosfer yang menyenangkan, kami hadir untuk memberikan pengalaman tak terlupakan bagi setiap pelanggan.</p>
+        </section>
+
+        <!-- Informasi Menu Favorit -->
+        <section class="team-section">
+            <h2>Menu Favorit</h2>
+            <div class="menu-container">
+                <div class="menu-item">
+                    <img src="gambar/pecel lele.jpg" alt="Menu Favorit">
+                    <h3>Pecel lele</h3>
+                    <p>Pecel Lele adalah hidangan Indonesia yang terdiri dari lele goreng disajikan dengan sambal kacang dan beragam sayuran segar seperti kangkung, kacang panjang, tauge, dan timun.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="gambar/tongseng kambing.jpg" alt="Menu Favorit">
+                    <h3>Tongseng kambing</h3>
+                    <p>Tongseng Kambing adalah hidangan Indonesia yang terdiri dari potongan daging kambing yang dimasak dengan bumbu rempah-rempah khas seperti jahe, serai, daun salam, dan kelapa parut.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="gambar/tongseng ayam.jpg" alt="Menu Favorit">
+                    <h3>Tongseng ayam</h3>
+                    <p>Tongseng Ayam adalah hidangan Indonesia yang terdiri dari potongan daging ayam yang dimasak dengan bumbu rempah-rempah khas seperti jahe, serai, daun salam, dan kelapa parut.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="gambar/mie rebus.jpg" alt="Menu Favorit">
+                    <h3>Mie rebus</h3>
+                    <p>Mie Rebus adalah hidangan Indonesia yang terdiri dari mie yang direbus hingga matang, kemudian disajikan dengan kuah kaldu yang gurih. Biasanya mie rebus disertai dengan potongan daging ayam atau sapi, telur rebus, irisan daun bawang, dan irisan bawang merah goreng sebagai topping.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="gambar/mie goreng.jpg" alt="Menu Favorit">
+                    <h3>Mie goreng</h3>
+                    <p>Mie goreng adalah hidangan Asia yang terdiri dari mie yang dimasak dan dicampur dengan berbagai bahan tambahan seperti daging ayam, udang, sayuran, dan telur.</p>
+                </div>
+                <div class="menu-item">
+                    <img src="gambar/lele balado.jpg" alt="Menu Favorit">
+                    <h3>lele balado</h3> 
+                    <p>Lele Balado adalah hidangan Indonesia yang terdiri dari ikan lele yang digoreng dan disajikan dengan bumbu balado, yang terbuat dari cabai merah, bawang merah, bawang putih, tomat, dan beberapa rempah-rempah lainnya.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            &copy; 2018 Nuansa hijau 62 ratu
+        </footer>
+    </div>
+</body>
+</html>
